@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dare Odumade</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+
+	<div class="headie">
+		<div class="conta">
+			<div class="col-12">
+			<div class="col-md-6"></div>
+
+		<nav class="navbar navbar-default">
+        <div class="conta-fluid">
+          <div class="navbar-header">
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <a href="index.html"><img src="img/Dareodumadelogo.png" class="mlogo" /></a>
+            <ul class="nav navbar-nav navbar-right navbar-adjust">
+              <li class="active"><a href="#home">Home<span class="sr-only"></span></a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.conta-fluid -->
+      </nav>
+
+      <div class="col-md -12 head-text">
+      	<div class="liner"></div>
+      	<h2 class="shadowhead">Meet, Dare</br> Challenging the Unknown, Daily</h2>
+      </div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="about" id="about">
+		<div class="conta">
+			<div clas="col-12">
+				<div class="liner"></div>
+				<!-- <h2>About</h2> -->
+				<p>Who am I:  An introvert with an overactive imagination, 
+				a weird problem solver who wants to be spent, talent wise- before the grave calls.
+				I believe life is amazing when you are free!</p>
+				</br>
+				<p> What I am great at: Firstly, achieving goals, then pondering, sourcing and sharpening ideas for pofit. Also, I am good at locating geological anomalies  using technology. In addition, I am great at people management, UI/UX development and creating stuf</p>
+				</br>
+				<p>Why Entrepreneurship: While growing up and realising who I am, I discovered I find it really easy or I am great at inviting things or creating a more efficient way for others to do things/ solve problems. I Love to play around software but later discovered if I play well enough, I could buy an Island some day.</p>
+				</br>
+				<p>Why MEST: I want to gain new knowledge on business and Technology. Work with the best brains in Africa. Leverage on MEST partnerships and build a billion $ startup, based in Africa.</p>
+			</div>
+		</div>
+	</div>
+
+	<!--<div class="services" id="services">
+		<div class="conta">
+			<div class="col-6">
+				<img src="img/charcoal-home.png" class="coal"/>
+			</div>
+			<div class="col-6 service-word">
+				<div class="liner liner-left"></div>
+				<p>We buy unprocessed charcoal in bulk from local farming cooperatives who we have partnered with. Once the charcoal is in our warehouse, it gets sorted and sifted in different sizes and bagged in polypropylene bags before being exported in 40'HC contas. Our local logistics and handling are managed by world-class partners to ensure best practices and efficient product distribution.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="csr" id="csr">
+		<div class="conta">
+			<div class="col-12">
+				<div class="liner"></div>
+				<p>Mametan is committed to corporate social responsibility initiatives. We believe that our growth and success should be reflected in the communities within which we operate. We participate in several community development projects independently. We also work closely with local farming cooperatives involved in the production of charcoal providing advisory, educational and financial resources as well as off-take assurances to both upcoming and commercial farmers. These cooperatives provide direct and indirect employment, especially in rural and communal areas where it is needed most. Addtionally, dedicated resources are made available to reforestation initiatives through Nigeria's Federal Ministry of Environment</p>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="contact" id="contact">
+		<div class="conta">
+			<div class="col-12">
+				<div class="liner"></div>
+				<p class="contact-sub">Please contact me should you require any further information regarding how we can partner</p>
+			</div>
+			<div class="col-6 mform">
+			<form method="POST">
+				<span><input type="text" placeholder="Full Name" name="name"></span>
+				<span><input type="text" placeholder="Email" name="email"></span>
+				<span><input type="text" placeholder="Phone" name="phone"></span>
+				
+				<span><textarea placeholder="Message" name="messsage"></textarea></span>
+
+				<input type="submit" value="send" class="contact-button"/>
+			</form>
+				
+			</div>
+			<div class="col-5 address">
+				<h2 class="contact-header">Contact Us</h2>
+				<i class="fa fa-map"></i><p>20 Aluguntugui St, Accra, Ghana</p>
+				<i class="fa fa-phone" aria-hidden="true"></i><p>+233 (0)262920467</p>
+				<i class="fa fa-envelope" aria-hidden="true"></i><p>dare.odumade@meltwater.org</p>
+				<a class="social" href="https://linkedin.com/in/dareodumade"><img src="img/linkedin.jpeg" align="center"></a>
+				<a class="social" href="https://facebook.com/dareod"><img src="img/facebook.png" align="center"></a>
+				<a class="twitter" href="https://twitter.com/oodeez"><img src="img/twitter.jpeg" align="center"></a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<div class="map" id="map" style="height: 620px; width: 100%;"></div>
+            
+    <script>
+      function initMap() {
+          
+          var cords = {lat:6.449345, lng:3.439655}
+          
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: cords,
+            zoom: 15
+        });
+          
+          var marker = new google.maps.Marker({
+              
+              position: cords,
+              map: map,
+              title: "Here here "
+          });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkc8mhi_OwMpAkJitrX6GLIt3jhiI31KQ&callback=initMap">
+    </script>
+        </div>
+
+
+	<footer>
+		<div class="leg">
+			<p>&copy; Dare Odumade | 2017</p>
+		</div>
+	</footer>
+
+<!-- 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script> -->
+
+<script>
+	$(function() {
+	$('ul.nav a').bind('click',function(event){
+		var $anchor = $(this);
+
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1500,'easeInOutExpo');
+		/*
+		if you don't want to use the easing effects:
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+		}, 1000);
+		*/
+		event.preventDefault();
+	});
+});
+</script>
+</body>
+</html>
