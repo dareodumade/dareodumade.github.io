@@ -10,3 +10,15 @@
 + UI/UX Design
 + Sales and Marketing
 + FInance Management
+
+
+
+
+
+| Strengths 	 | level         |
+| -------------  |:-------------:|
+| visionary      | 95%			 |
+| goal driven    | 90%           |
+| Analytical     | 85%           |
+
+
